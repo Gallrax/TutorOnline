@@ -1,0 +1,265 @@
+#n-user-pic{
+    margin:40px auto 10px auto;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+}
+
+#gh_btn{
+    width:100px;
+    line-height:30px;
+    font-size:14px;
+    color:#599E95;
+    cursor:pointer;
+    margin:auto;
+    display:block;
+    text-align: center;
+}
+#gh_btn:hover{
+    color:#0d7567;
+}
+.info_reg p{
+    width:400px;
+    margin:10px auto;
+}
+.info_reg p label{
+    font-size:16px;
+    color:#555;
+    cursor:pointer;
+}
+.info_reg p label r{
+    color:red;
+    padding-right:2px;
+}
+.info_reg p .ipt{
+    width:398px;
+    height:34px;
+    font-size:14px;
+    color:#595959;
+    border:1px solid #e3e3e3;
+    text-indent: 10px;
+    margin:10px 0 0 0;
+}
+.info_reg p .ipt:hover{
+    border-color:#888;
+}
+.info_reg p .radio{
+    margin-top:20px;
+}
+.info_reg p span{
+    display:block;
+    height:20px;
+    line-height:20px;
+    font-size:12px;
+}
+.info_reg p select{
+    min-width: 100px;
+    border:1px solid #e3e3e3;
+    height:34px;
+    margin-top:10px;
+}
+
+#xg-btn{
+    width:400px;
+    line-height:40px;
+    background:#389ECE;
+    text-align: center;
+    display:block;
+    color:#fff;
+    font-size:16px;
+    cursor:pointer;
+    margin:30px auto;
+    border-radius:4px;
+    letter-spacing: 2px;
+    border: none;
+}
+#vcode-btn{
+    width: 50%;
+    float: right;
+    text-align: center;
+    height: 40px;
+    background: #2db741;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 42px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+
+.n-pic-box{
+    width:600px;
+    height:400px;
+    background:#fff;
+    border-radius:4px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    margin:-200px 0 0 -300px;
+}
+
+
+.n-top{
+    width:100%;
+    overflow:hidden;
+}
+.bendi{
+    float:left;
+    font-size:12px;
+    line-height:30px;
+    padding:0 20px 0 34px;
+    background:#e3e3e3 url(../images/bendi.png) 10px center no-repeat;
+    color:#999;
+    margin:20px;
+    position:relative;
+    cursor:pointer;
+}
+.bendi input{
+    width:100%;
+    height:100%;
+    opacity: 0;
+    -moz-opacity: 0;
+    -webkit-opacity: 0;
+    position:absolute;
+    top:0;
+    left:0;
+    cursor:pointer;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#zipai{
+    font-size:12px;
+    line-height:30px;
+    padding:0 20px 0 34px;
+    background:#e3e3e3 url(../images/zipai.png) 10px center no-repeat;
+    color:#999;
+    margin:20px;
+    float:left;
+    cursor:pointer;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#guanbi{
+    float:right;
+    width:20px;
+    height:20px;
+    background:#e3e3e3 url(../images/guanbi.png) center center no-repeat;
+    background-size:12px;
+    margin:25px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+/*.n-top a:hover,.n-top span:hover{
+	border:1px solid #ccc;
+}*/
+
+
+
+
+.action {
+    height: 40px;
+    margin: 10px 0;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-left: 140px;
+    overflow: hidden;
+}
+
+.cropped img {
+    margin-right: 10px;
+}
+
+.imageBox {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border: 1px solid #aaa;
+    background: #fff;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    cursor: move;
+    margin-left: 20px;
+    float: left;
+}
+
+.imageBox .thumbBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+    box-sizing: border-box;
+    border: 1px solid rgb(102, 102, 102);
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    background: none repeat scroll 0% 0% transparent;
+}
+
+.imageBox .spinner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    line-height: 400px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#btnZoomIn,
+#btnZoomOut {
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    background: #b2e0fb;
+    margin-right: 2px;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+#btnCrop {
+    width: 40px;
+    height: 30px;
+    background: #007AFF;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+
+
+.touxiang-box{
+    width:100%;
+    overflow:hidden;
+}
+
+.touxiang-box article{
+    float:left;
+    margin-left:20px;
+}
+
+.yulan h1{
+    font-size:16px;
+    color:#666;
+    line-height:16px;
+    margin-bottom:10px;
+}
+.yulan img{
+    width:200px;
+    height:200px;
+}
+
+
+
+
+
+
+
+
+

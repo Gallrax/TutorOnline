@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+.freelBg{background-image:url(../images/course/freelbg.png); background-repeat:no-repeat; background-position:0 0;}
+.freelesson-top span{display:none;}
+.keywMain{background-color:#fff; border-left:5px solid #a9d6ed; border-right:5px solid #a9d6ed;}
+.keywBtn_tag{padding-left:15px;}
+.keywBtn_tag li{float:left; height:40px; line-height:32px; width:118px; margin-right:4px; font-size:16px; font-weight:bold; text-align:center; background-image:url(../images/course/freelbg.png); background-repeat:no-repeat; background-position:-454px -269px; cursor:pointer;}
+.keywBtn_tag li.tagHover{background-position:-592px -269px;}
+.keywBtn_tag li.curTag{background-position:-316px -269px; color:#fff;}
+.keywBtn_tag li a:link,.keywBtn_tag li a:visited,.keywBtn_tag li a:hover,.keywBtn_tag li a:active{color:#669ead; text-decoration:none;}
+.keywBtn_tag li.curTag a:link,.keywBtn_tag li.curTag a:visited,.keywBtn_tag li.curTag a:hover,.keywBtn_tag li.curTag a:active{color:#fff;}
+.keywMain .keyAnchor{color:#222; padding:5px 0 6px 15px; border-bottom:none; background:#fdfdfd url(../images/course/kw_reX.gif) repeat-x left bottom;}
+.keywMain .keyAnchor span{background:none;}
+.keywLessonRow{padding:10px 0; margin-left:20px; zoom:1;}
+.keywLessonRow .keywLesson_detail,.keywLesson_detail_T{float:left; padding:10px 15px 0 45px; width:236px; height:305px; margin-right:16px; background-position:0 -211px; position:relative;}
+.keyw_subject{display:inline-block; line-height:140%; width:16px; text-align:right; position:absolute; left:4px; top:27px; z-index:1;}
+.keyw_subject a:link,.keyw_subject a:visited,.keyw_subject a:hover,.keyw_subject a:active{color:#222; text-decoration:none;}
+.keywLesson_detail h2{color:#bc7c00; font-weight:bold; margin-bottom:5px;}
+.keyw_videoImg{display:inline-block; border:2px solid #e1e1e1;}
+.keyw_videoImg img{border:1px solid #fff;}
+.kwBtn_play{display:block; width:45px; height:46px; cursor:pointer; background-image:url(../images/course/kw_btnPlay.png); _background-image:url(../images/course/kw_btnPlay_ie6.png)/*for IE6*/; background-repeat:no-repeat; background-position:0 0; text-indent:-9999px; position:absolute; left:65px; top:130px; z-index:1;}
+.keywLesson_detail dl{margin-top:4px;}
+.keywLesson_detail dt{float:left;}
+.keywLesson_detail dd{margin-left: 64px;}
+.keywLesson_detail dd span{padding-right:10px;}
+.keywLesson_detail .kwBtn_listen{display:block; font-weight:bold; width:145px; height:33px; line-height:30px; margin:4px 0 0 50px; text-align:center; background-position:-316px -319px;}
+a.kwBtn_listen:link,a.kwBtn_listen:visited,a.kwBtn_listen:hover,a.kwBtn_listen:active{color:#8d4c00; text-decoration:none;}
+.keywLesson_detail a.kwBtn_listen:hover{background-position:-465px -319px;}
+.keyw_lessonDet{display:none;}
+.keywordCon .flFillet990_b{background-position:0 -536px;}
+/*免费试听页及落地页改进*/
+.freelesson-topN{position:relative; padding-top:258px; background:#f8f8f8 url(../images/course/banner_freelesson_c_top_20161117.jpg) no-repeat top center; zoom:1;}
+.freelesson-topC{position:relative; padding-top:215px;  background:#f8f8f8 url(../images/course/banner_freelesson_d_top.jpg) no-repeat top center; zoom:1;}
+.freeles-con{position:absolute; top:136px; width:990px; background-color:#fff;}
+.freeles-con_c{position:absolute; top:105px; width:990px; background-color:#fff;}
+.freeles-grade-tab{border-bottom:2px solid  #14a7ed;}
+.freeles-grade-tab a{float:left; display:inline; width:113px; height:32px; line-height:32px; background:url(../images/course/grade-tab-current.jpg) no-repeat -113px 0;  font-size:14px; color:#00558b; text-align:center; cursor:pointer;}
+.freeles-grade-tab a:hover{color:#00558b; text-decoration:none;}
+.freeles-grade-tab a.freeles-grade-tab-current{background:#14a7ed url(../images/course/grade-tab-current.jpg) no-repeat 0; color:#fff; text-decoration:none; border-right:1px solid #14a7ed;}
+.freeles-grade-tab a.freeles-grade-tab-current:hover{color:#fff; text-decoration:none;}
+.freeles_difficulty{height:43px; line-height:43px; border-bottom:1px dashed #e8e8e8;}
+.freeles_subject{height:44px; line-height:44px;}
+.freeles_difficulty dt,.freeles_subject dt{float:left; display:inline-block; padding-left:52px; width:78px;}
+.freeles_difficulty dd,.freeles_subject dd{float:left; display:inline-block; padding:0 17px; cursor:pointer;}
+.freeles_difficulty dd.difficulty_curr{color:#FF5F5F;}
+.freeles_subject dd.subject_curr{color:#FF5F5F;}
+.freeles_main{margin-top:30px;}
+.freeles_main .maLR{margin:0 20px;}
+.freeles_main_c .maLR{margin:0 20px;}
+.freeLesson_detail{float:left; display:inline-block; position:relative; overflow:hidden; padding:12px 12px 20px; margin-bottom:20px; width:292px; border-bottom:1px solid #ccc; background-color:#fff; zoom:1;}
+.free_subject{position:absolute; top:12px; right:12px; width:40px; height:20px; line-height:20px; background-color:#078FDF; text-align:center; font-size:12px; color:#fff;}
+.free_subject a:link,.free_subject a:visited{color:#fff; text-decoration:none;}
+.free_subject a:hover{color:#fff;}
+.freeLesson_detail h2{position:absolute; top:167px; padding-left:12px; height:38px; width:280px; line-height:38px; font-size:16px; color:#fff; background-color:#000;  opacity:0.5; alpha(opacity:50;)}
+.free_videoImg{display:inline-block;}
+.fBtn_play{display:block; position:absolute; top:96px; left:138px; width:40px; height:40px; background:url(../images/course/fBtn_play.png) no-repeat; _background:url(../images/course/fBtn_play_ie6.png) no-repeat; text-indent:-9999px; cursor: pointer; z-index:1;}
+.freeLesson_detail dl{margin-top:4px; width:292px; font-size:14px; line-height:30px; color:#393939;}
+.freeLesson_detail dt{float:left;}
+.freeLesson_detail dd span{padding-right:10px;}
+.free_lessonTil{cursor:pointer; display:block;}
+.free_lessonTil,.free_lessonTeac,.free_lessonDet{display:block;}
+.freeLesson_detail .fBtn_listen{display:block; margin:20px 0 0 62px; width:154px; height:34px; line-height:34px; text-align:center; font-size:16px; color:#fff;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+a.fBtn_listen:link,a.fBtn_listen:visited{background-color:#0781CA; _color:#fff; text-decoration:none;}
+.freeLesson_detail a.fBtn_listen:hover{background-color:#088FE0; _color:#fff; text-decoration:none;}
+/*免费试听页及落地页无课程*/
+.freeLesson_no{margin-bottom:40px; height:230px; background-color:#fff; border-bottom:1px solid #ccc;}
+.freeLesson_no p{margin:0 auto; padding-top:80px; width:430px; font-size:18px;}
+.freeLesson_no .freeLesson_no_sub{display:inline-block; padding-left:22px;}
+.freeLesson_no a:link, .freeLesson_no a:visited{color:#14a7ed;}
+.freeLesson_no a:hover{text-decoration:none;}
+/*免费试听*/
+.freelessonCon .keywLessonRow{border-bottom:none; padding-bottom:5px;}
+.keywLesson_detail{ margin-bottom:15px;}
+.keywordCon .loading{padding:30px 0;}
+.keyw_videoImg img{display:inline-block;}
+
+/* 下载简单课堂 */
+.sp_freelesson{background-image:url("../images/course/sprite_freelesson.png"); background-repeat:no-repeat; _background-image:url("../images/course/sprite_freelesson_ie6.png");}
+
+.freeles_pop{width:444px; position:relative; z-index:100;}
+.freeles_popmain{height:266px; padding:26px 25px 0 25px; background-image:url(../images/downcenter/dw_popbox_bg.png);_background-image:url(../images/downcenter/dw_popbox_bg2.png); background-repeat:no-repeat; background-position:top center;}
+.freeles_popmain h2{margin:0 0 35px 130px; overflow:hidden;}
+.freeles_popmain h2 a{display:block; width:110px; height:110px; text-indent:-9999px;}
+.freeles_popmain h3{font-size:16px; font-weight:bold; padding-bottom:10px;}
+.freeles_popmain h3 a{display:inline-block; font-weight:normal; font-size:12px; line-height:21px; color:#fff; margin:0 3px; width:70px; text-align:center; background:url(../images/downcenter/click_btn.gif) no-repeat left center;}
+.freeles_popmain h3 a:link,.freeles_popmain h3 a:visited,.freeles_popmain h3 a:hover,.freeles_popmain h3 a:active{text-decoration:none; color:#fff;}
+.freeles_popmain h3 a:hover{background:url(../images/downcenter/click_btn_h.gif) no-repeat left center;}
+.freeles_popmain span{font-weight:normal; font-size:12px;}
+.freeles_popmain p a{padding:0 2px; text-decoration:underline;}
+.qr_code_sem{position:fixed; right:32px; top:145px; width:153px; height:335px; z-index:9999;
+     /*background:url(../images/main/pic_qqzone_cz_20150629.jpg) no-repeat 0 0;*/
+     *zoom:1;
+     _position:absolute;
+     _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||260)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+ }
+.qr_code_sem_cz{
+    background:url(../images/main/wxsyscz.png) no-repeat 0 0;
+}
+.qr_code_sem_gz{
+    background:url(../images/main/sysgz1.png) no-repeat 0 0;
+}

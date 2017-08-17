@@ -1,0 +1,36 @@
+.catbox{}
+.catbox p{
+    border-left: 8px #EB5555 solid;
+    padding-left: 8px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #EB5555;
+    font-weight: bold;
+}
+.catbox a{float:left; margin:10px; background-color: #C78139;color: #fff;padding: 5px 10px;}
+
+.box3{ line-height:25px; margin-bottom:20px;}
+.box3 p.title a{ text-align:left;color:#22CC36;font-size: 18px;font-weight: bold;}
+.box3 p.title span{
+    display: inline-block;
+    font-size: 16px;
+    color: #22CC36;
+    float:right;
+    color:#CC6600;
+    margin-left:30px;
+}
+
+.tbox,.doclist{padding: 0 8px;}
+.doclist h2{ text-align:left; font-size:18px;line-height: 30px;    border-bottom: #ccc dotted 1px;margin: 15px 0;}
+.i{text-align:center;}
+.fenye{float:left;margin-bottom:15px;margin-top:10px; clear:both; width:750px; height:auto;}
+.fenye p{padding: 5px;color: #6D6B6B;clear:both}
+.fenye p.pg a{background-color: #49B3C8;border: 1px solid #2D9FB3;color: #FFFFFF;display: inline;float: left;height: 26px;margin-left: 4px;overflow: hidden;    padding: 0 8px;text-decoration: none;line-height:26px;}
+.fenye p.pg a.on{background-color: #FFFFFF; color:#0099CC}
+
+.des{line-height:32px;}
+
+.des img{width:100%;max-width: 500px;}
+.tbox h1{ font-size:25px; font-weight:bold; padding-left:20px;line-height:55px;color: #67BB1B; text-align:center}
+
+.ndwz span{color:#C7B094}

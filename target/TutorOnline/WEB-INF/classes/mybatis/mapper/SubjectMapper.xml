@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.SubjectDao">
+
+    <resultMap id="subjectResult" type="Subject">
+            <id property="id" column="id"/>
+            <result property="title" column="title"/>
+            <result property="beginTime" column="beginTime"/>
+            <result property="endTime" column="endTime"/>
+            <result property="address" column="address"/>
+            <result property="description" column="description"/>
+            <result property="money" column="money"/>
+            <result property="picUrl" column="picUrl"/>
+            <result property="teaId" column="teaId"/>
+            <result property="userId" column="userId"/>
+            <result property="courseId" column="courseId"/>
+        <association property="teacher" javaType="User" column="teaId" select="selectTeacher">
+            <id property="id" column="id"/>
+            <result property="username" column="username"/>
+            <result property="password" column="password"/>
+            <result property="name" column="name"/>
+            <result property="age" column="age"/>
+            <result property="sex" column="sex"/>
+            <result property="isTea" column="isTea"/>
+            <result property="description" column="description"/>
+        </association>
+        <association property="user" javaType="User" column="userId" select="selectUser">
+            <id property="id" column="id"/>
+            <result property="username" column="username"/>
+            <result property="password" column="password"/>
+            <result property="name" column="name"/>
+            <result property="age" column="age"/>
+            <result property="sex" column="sex"/>
+            <result property="isTea" column="isTea"/>
+            <result property="description" column="description"/>
+        </association>
+        <association property="course" javaType="Course" column="courseId" select="selectCourse">
+            <id property="id" column="id"/>
+            <result property="name" column="name"/>
+        </association>
+    </resultMap>
+
+    <!-- 通用查询结果列-->
+    <!--<sql id="Base_Column_List">
+        id, username, password, phone
+    </sql>-->
+
+    <select id="selectTeacher" parameterType="Integer" resultType="User">
+        select * from t_user where id = #{id}
+    </select>
+    
+    <select id="selectUser" parameterType="Integer" resultType="User">
+        select * from t_user where id = #{id}
+    </select>
+
+    <select id="selectCourse" parameterType="Integer" resultType="Course">
+        select * from t_course where id = #{id}
+    </select>
+    
+</mapper>

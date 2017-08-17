@@ -1,0 +1,152 @@
+input{
+    border:0;
+    margin:0;padding:0;
+    outline: none;
+}
+.container{
+    width:1200px;
+    height:560px;
+
+    margin:auto;
+    padding-top:40px;
+}
+.teacher_container{
+    background:url(../images/regist.jpg);
+}
+.student_container{
+    background:url(../images/regist.jpg);
+}
+.regbox{
+    float:right;
+    width:360px;
+    height:560px;
+    background:#fff;
+    margin:0 60px 0 0;
+}
+.regbox h1{
+    font-size:18px;
+    margin:26px 0 10px 30px;
+}
+.student_color{
+    color:#2db741;
+}
+.teacher_color{
+    color:#10bae5;
+}
+.regbox h2{
+    font-size:18px;
+    margin:0px 0 18px 70px;
+}
+.regbox p{
+    width:320px;
+    height:70px;
+    margin-left:20px;
+    position: relative;
+}
+
+.regbox input{
+    width:320px;
+    height:40px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border:1px solid #999999;
+    padding-left:50px;
+    font-size:14px;
+    color:#999;
+}
+.tip{
+    font-size:12px;
+    display:block;
+    line-height:30px;
+    color:#999;
+}
+#l_yqm{
+    background:url(../../images/register/yqm.png) center no-repeat;
+}
+#l_vcode{
+    background:url(../../images/register/yzm.png) center no-repeat;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+#l_mobile,#l_username,#l_email,#l_yqm,#l_vcode,#l_password{
+    position:absolute;
+    display:block;
+    width:28px;
+    height:28px;
+    top:6px;
+    left:10px;
+}
+.regbtn{
+    width:320px;
+    height:42px;
+    background:#2db741;
+    color:#fff;
+    font-size:24px;
+    line-height:42px;
+    text-align: center;
+    display:block;
+    margin:auto;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.tiaokuan{
+    font-size:14px;
+    color:#999;
+    display:block;
+    width:320px;
+    margin:18px auto 10px auto;
+}
+.tiaokuan a,.own a{
+    font-size:13px;
+}
+.own{
+    font-size:14px;
+    color:#999;
+    display:block;
+    width:320px;
+    text-align: center;
+}
+.state{
+    color:red;
+    font-size:12px;
+    line-height:30px;
+}
+.state1{
+    color:green;
+    font-size:12px;
+    line-height:30px;
+}
+.yzmbox{
+    position:relative;
+}
+#yzmbtn{
+    width:150px;
+    height:40px;
+    background:#10BAE5;
+    border-radius:25px;
+    color:#fff;
+    font-size:14px;
+    text-align: center;
+    padding:0;
+    position:absolute;
+    right:0;
+    top:0;
+    border:0;
+    outline: none;
+}
+#send_btn{
+    width: 50%;
+    float: right;
+    text-align: center;height: 40px;    background: #2db741;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 42px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}

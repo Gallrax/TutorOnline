@@ -1,0 +1,93 @@
+a, b, body, canvas, caption, center, cite, code, dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend,  mark, menu, meter, nav, object, ol, output, p, pre, progress, q, rp, rt, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, time, tt, u,  var, video, xmp,ul,li{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+table, tbody, td, tfoot, th, thead, tr{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+html, body {height: 100%; font-family:"微软雅黑";}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+b, strong {font-weight: bold;}
+img {color: transparent;font-size: 0;-ms-interpolation-mode: bicubic;}
+ol, ul,li {list-style: none;}
+li {display: list-item;}
+table {	border-collapse: collapse;	border-spacing: 0;}
+th, td, caption {font-weight: normal;vertical-align: middle;}
+q {quotes: none;}
+q:before, q:after {content: '';content: none;}
+sub, sup, small {font-size: 75%;}
+sub, sup {line-height: 0;	position: relative;vertical-align: baseline;}
+sub {bottom: -0.25em;}
+sup {top: -0.5em;}
+svg {overflow: hidden;}
+
+/* 全局CSS定义 */
+body{margin:0 auto;background:#FFF;color:#423B3B;font: 15px/1.5 "Microsoft YaHei",DengXian,Arial,Simsun,SimHei,sans-serif;line-height:18px;}
+em,i{font-style:normal;}
+h1,h2,h3,h4,h5,h6{font-size:12px;font-weight:normal;}
+input,textarea{font-size:15px}
+/* 链接颜色 */
+a{color:#333;text-decoration:none;}
+a:hover{color:#C00;text-decoration:none;}
+/* 标题 */
+h2{text-align:right;}
+h2 span{float:left;font-weight:bold;}
+
+.clear,.pc_main_box,.pic-group,.pic-text{zoom:1;}
+.pic-group ul,.pic-group li{padding:0px;}
+.rank_list2 ul,.rank_list2 li{padding:0px;}
+
+.show{display:block;}
+.hidden{display:none;}
+.pic-group,.pic-text,.list12 ul,.list14 ul,.pc_main_box{width:100%;margin:0 auto;}
+.pic-group:after,.pic-text:after,.pc_main_box:after,.clear:after{content:".";display:block;visibility:hidden;height:0;clear:both;}
+
+.pic-group li{float:left;display:inline;}
+.pic-group img{display:block;margin:0 auto;}	/*组图内图片属性*/
+.pic-group span{display:block;}
+.pic-text{color:#666;line-height:20px;text-align:left;}
+.pic-text div{float:left;margin:0 10px 0 0;_margin-right:7px;}			/*图文混排*/
+.pic-text p{clear:none}
+/* 文字列表属性 */
+.list14 li,.list12 li{padding:3px 0;color:#333;font-size:12px;line-height:16px;text-align:left;}
+.list14 li{padding:4px 0;font-size:14px;}
+/* 浮动属性 */
+.left,.center,.l,.right,.r,.c{display:inline;float:left;}
+.right,.r{float:right;}
+.fontArial{font-family:'Arial'}
+.blank5,.blank8{height:5px;font-size:1px;}
+.blank8{height:8px;}
+.more{text-align:right;}/* 更多 */
+.pc_main_box{width:1000px;}/*页面属性 */
+
+/* 标准头 */
+#indexNav,#channelNav{height:22px;margin:4px auto;background:#fff;color:#000;text-align:left;}
+#channelNav{background:#EFEBEF;}
+#indexNav ul,#channelNav ul{padding-right:6px;}
+#indexNav li,#channelNav li{float:left;margin:5px auto 0;padding:0 2px 0 0;line-height:14px;}
+#indexNav .end,#channelNav .end{padding-right:0;}
+#indexNav .red a,#channelNav .red a{color:#f00;}
+#indexNav a,#channelNav a{color:#000;}
+
+/* 标准底 */
+#foot{width:950px;margin:10px auto;border-top:1px solid #dadada;color:#333;line-height:22px;text-align:center;}
+#foot .foot_info{margin:10px;}
+
+.bookbox2 a{float: left;margin: 2px;}
+.bookbox2 a img{width:154px;height:215px;}
+
+.flb em {
+	float: left;font-size: 14px;font-weight: 700;color: #369;}
+
+.flb {
+	padding: 10px 10px 8px;height: 20px;line-height: 20px;}
+.flb span {
+	float: right;color: #999;}
+.flb span a, .flb strong {
+	float: left;text-decoration: none;margin-left: 8px;font-weight: 400;color: #333;}
+.flbc {
+	float: left;width: 20px;height: 20px;overflow: hidden;text-indent: -9999px;background: url(http://bbs.1010jiajiao.com/static/image/common/cls.gif) no-repeat 0 0;cursor: pointer;}
